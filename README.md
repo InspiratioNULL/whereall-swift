@@ -1,10 +1,15 @@
-INTRODUCING!
-## whereall
-Swift command line utility alternative to where! very useful, for instance when using xargs, where is a "built in shell command" and doesnt have a location and xargs only acts upon executables. and its blazing fast, much faster than any ol' zsh or bash function could ever. Thanks to swift! Codesigned by Apple Developer ID
-for instance.
+####  *INTRODUCING!*
+# whereall
+### Swift command line utility alternative to where! 
+#### very useful, in many cases, like when using xargs
+#### Its blazing fast, much faster than any ol' zsh or bash function could ever. Thanks to swift!
+##### *Codesigned by Apple Developer ID*
+
+where is a *built in shell command* and doesnt have a location and xargs **only** acts upon *executables*, for instance.
+
 ```
 ◬ main⎪●◦◌◦⎥ py⌉⌊3.8 sw ◁ 6.2arm64 01:48
- $ ls /opt/homebrew/cellar/llvm/20.1.8/bin | xargs -I {} where {}                                                                                                 
+   ls  /opt/homebrew/cellar/llvm/20.1.8/bin | xargs -I {} where {}                                                                                                 
 xargs: where: No such file or directory
 ```
 ```
